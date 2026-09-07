@@ -1,0 +1,42 @@
+# ==========================================
+# Virtual Environment
+# ==========================================
+.venv/
+
+# ==========================================
+# Python Bytecode & Cache Files
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.ipynb_checkpoints/
+
+# ==========================================
+# Secrets & Configuration
+# ==========================================
+.env
+.env.*
+!.env.example
+
+# ==========================================
+# Data & Model Weights (LLM Output/Artifacts)
+# ==========================================
+*.txt
+*.json
+*.jsonl
+*.csv
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.onnx
+
+# ==========================================
+# OS & Editor Files
+# ==========================================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
